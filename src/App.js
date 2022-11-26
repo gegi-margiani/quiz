@@ -63,7 +63,7 @@ function App() {
       ) : (
         <div>
           <div>
-            {score}/{data.length}
+            {score}/{data && data.length}
           </div>
           <button onClick={restartGame}>Restart</button>
         </div>
